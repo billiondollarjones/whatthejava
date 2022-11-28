@@ -13,7 +13,10 @@ function getPasswordCriteria(){
 
   // struggling here. when I put in all the password criteria, it turns red //
   var options = {
-    userChoseLowercase:userChoseLowercase
+    userChoseLowercase:userChoseLowercase,
+    userChoseNumbers:userChoseNumbers,
+    userChoseSpecial:userChoseSpecial,
+    userChoseUppercase:userChoseUppercase
   }
   return options;
 }
