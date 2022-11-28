@@ -2,7 +2,7 @@
 var numbers = ['0','1','2','3','4','5','6','7','8','9']
 var lowercase = ['a','b','c','d','e','f','g','h','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 var uppercase = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','U','X','Y','Z']
-var special =['!','@','#','$','%','^','&','*']
+var special = ['!','@','#','$','%','^','&','*']
 
 // matching the password criteria from the readme //
 function getPasswordCriteria(){
@@ -11,7 +11,7 @@ function getPasswordCriteria(){
   var userChoseUppercase = confirm("Do you want to use an uppercase letter?");
   var userChoseSpecial = confirm("Do you want to use a special character?");
 
-  // struggling here. when I put in all the password criteria, it turns red //
+  // all the options. can't figure out to get special characters show //
   var options = {
     userChoseLowercase:userChoseLowercase,
     userChoseNumbers:userChoseNumbers,
